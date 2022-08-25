@@ -1,13 +1,18 @@
 <?php
     include '../db.php';
     
-    /* $filteredAlbums = [];
+    $filteredAlbums = [];
 
     if(!empty($_GET['genre'])){
         $genre = $_GET['genre'];
-        $albums = 
+        foreach($albums as $album){
+            if($album['genre'] === $genre){
+                $filteredAlbums[] = $album;
+            }
+        }
     } else {
-        $albums = $db->query("SELECT * FROM albums");
-    } */
+        $filteredAlbums = $albums;
+    }
+
     header('Content-Type: application/json');
-    echo json_encode($albums);  
+    echo json_encode($filteredAlbums);  
