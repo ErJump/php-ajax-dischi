@@ -1,0 +1,28 @@
+:root{
+    --ms_headerBG : #2e3a46;
+    --ms_mainBG: #1e2d3b;
+    --ms_subColor : #75797f;
+}
+
+.my_header {
+    background-color: var(--ms_headerBG);
+    height: 70px;
+}
+
+.my_main {
+    background-color: var(--ms_mainBG);
+    height: calc(100vh - 70px);
+}
+
+.my_card {
+    background-color: var(--ms_headerBG);
+    height: 400px;
+}
+
+.my_card span {
+    color: var(--ms_subColor);
+}
+
+#app{
+    overflow-y: hidden;
+}
