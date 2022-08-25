@@ -9,7 +9,7 @@
             if($album['genre'] === $genre){
                 $filteredAlbums[] = $album;
             }
-        }
+        } 
     } else {
         $filteredAlbums = $albums;
     }

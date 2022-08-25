@@ -26,3 +26,7 @@
 #app{
     overflow-y: hidden;
 }
+
+header select{
+    width: 200px;
+}

@@ -54,7 +54,7 @@
             'author' => 'Gorillaz',
             'year' => 2010,
             'poster' => 'https://m.media-amazon.com/images/I/81EP2fxHLRL._AC_SX466_.jpg',
-            'genre' => 'Hip Hop'
+            'genre' => 'HipHop'
         ],
         [
             'title' => 'Evangelion Finally',
